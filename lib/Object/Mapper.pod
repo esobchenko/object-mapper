@@ -1,0 +1,30 @@
+=head1 NAME
+
+Object::Mapper - primitive object persistence
+
+=head1 SYNOPSIS
+
+	package Foo;
+
+	use base qw(Object::Mapper);
+
+	__PACKAGE__->file("foo.db");
+
+	__PACKAGE__->mk_accessors( qw(
+		foo
+		bar
+		baz
+	) );
+
+=head1 DESCRIPTION
+
+=head1 METHODS
+
+=head1 DIAGNOSTICS
+
+=head1 DEPENDENCIES
+
+=head1 AUTHOR
+
+=head1 LICENSE AND COPYRIGHT
+
